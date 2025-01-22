@@ -1,0 +1,49 @@
+/* Container for all sections */
+.founders-history-container {
+  background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  /* Base styling for each section */
+  .founders-history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; /* Default layout: Content left, Image right */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Reverse layout for second section (Image on the Left, Content on the Right) */
+  .founders-history.reverse {
+    flex-direction: row-reverse; /* Switch positions of content and image */
+  }
+  
+  /* Content styling */
+  .content {
+    flex: 1;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Image styling */
+  .image {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

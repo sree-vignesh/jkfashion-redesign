@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.info-block-container {
+    padding: 60px 100px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.info-block-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Fjalla One';
+    font-weight: 500;
+}
+
+.info-block-container p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.info-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-section {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info-section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.info-section i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #e63946;
+}
+
+@media (max-width: 768px) {
+    .info-section {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-section {
+        width: 100%;
+    }
+}

@@ -1,4 +1,5 @@
 // components/Footer.tsx
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,9 +23,9 @@ const Footer = () => {
             <h2 className="text-lg font-bold mb-2">Links</h2>
             <ul>
               <li>
-                <a href="/" className="hover:text-gray-400">
+                <Link href="/" className="hover:text-gray-400">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="/about" className="hover:text-gray-400">
