@@ -74,7 +74,7 @@ const Navbar = () => {
         <li className="absolute top-2 right-4">
           <button
             onClick={closeMenu}
-            className="text-white text-xl"
+            className="text-black text-xl"
             aria-label="Close menu"
           >
             &times;
