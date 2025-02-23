@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,10 +11,20 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <nav className="  bg-white backdrop-filter backdrop-blur-md text-black p-4 flex justify-between items-center fixed w-full z-50">
+    <nav className="  bg-white backdrop-filter backdrop-blur-md text-black p-4 flex justify-between items-center fixed w-full z-50 pb-0 pt-0 pl-4 pr-9">
       {/* Logo */}
       <Link href="/">
-        <h1 className="text-lg font-bold cursor-pointer">JK Fashion</h1>
+        <div className="flex items-center space-x-2 cursor-pointer  ">
+          <Image
+            src="/jk-logo.png"
+            alt="JK Fashion Logo"
+            width={70}
+            height={70}
+            priority
+          />
+
+          {/* <h1 className="text-lg font-bold cursor-pointer">JK Fashion</h1> */}
+        </div>
       </Link>
 
       {/* Hamburger Menu */}
