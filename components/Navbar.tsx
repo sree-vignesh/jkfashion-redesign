@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2 cursor-pointer  ">
           <Image
             src="/jk-logo.png"
-            alt="JK Fashion Logo"
+            alt="JK Fashion "
             width={70}
             height={70}
             priority
@@ -85,7 +85,7 @@ const Navbar = () => {
         <li className="absolute top-2 right-4">
           <button
             onClick={closeMenu}
-            className="text-white text-xl"
+            className="text-black text-xl"
             aria-label="Close menu"
           >
             &times;

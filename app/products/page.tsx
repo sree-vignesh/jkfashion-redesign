@@ -22,6 +22,10 @@ const products = [
 
 const Products = () => {
   return (
+<<<<<<< HEAD
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <h1 className="text-4xl font-bold text-gray-800">Products Page</h1>
+=======
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 py-8">
       <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
         Products
@@ -47,6 +51,7 @@ const Products = () => {
           </div>
         ))}
       </div>
+>>>>>>> 40d2d968aa347e21006ad383999a493d00ad7d2c
     </div>
   );
 };
