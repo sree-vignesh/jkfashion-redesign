@@ -15,6 +15,35 @@
 }
 
 .hero-text {
+<<<<<<< HEAD
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+    max-width: 600px;
+    backdrop-filter: blur(0px);
+    
+    /* margin: 20px; */
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-out;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    animation: slideIn 1.5s ease-out;
+}
+
+.hero-buttons {
+=======
     max-width: 800px;
     padding: 1rem;
     backdrop-filter: blur(5px);
@@ -33,6 +62,7 @@
   }
   
   .hero-buttons {
+>>>>>>> 40d2d968aa347e21006ad383999a493d00ad7d2c
     display: flex;
     gap: 1rem;
     justify-content: center;
