@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2 cursor-pointer  ">
           <Image
             src="/jk-logo.png"
-            alt="JK Fashion Logo"
+            alt="JK Fashion "
             width={70}
             height={70}
             priority
